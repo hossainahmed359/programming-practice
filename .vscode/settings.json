@@ -1,0 +1,112 @@
+{
+  // editor
+  "editor.fontSize": 14,
+  "editor.tabSize": 4,
+  "editor.fontFamily": "Fira Code, Operator Mono",
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+
+  //explorer
+  "explorer.openEditors.visible": 1,
+
+  //editor
+
+  "editor.renderControlCharacters": true,
+  "editor.insertSpaces": true,
+  "editor.renderWhitespace": "all",
+  // "editor.rulers": [79],
+  "editor.formatOnType": true,
+
+  "editor.mouseWheelZoom": true,
+  "editor.glyphMargin": true,
+
+  //workbench
+  "workbench.editor.enablePreview": false,
+
+  //files
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/*.pyc": true,
+    "*.pyo": true,
+    "**/__pycache__": true,
+    "__pycache__": true
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.eol": "\n",
+
+  //git
+  "git.autorefresh": false,
+  "git.autofetch": false,
+
+  //python
+  //"python.pythonPath": "${env.VIRTUAL_ENV}/bin/python",
+  "python.linting.flake8Enabled": true,
+  "python.linting.pylintEnabled": false,
+
+  //privacy
+  "update.channel": "default",
+  "telemetry.enableTelemetry": false,
+
+  // cursor
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+  // config related to code formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.tslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "eslint.alwaysShowStatus": true,
+  // "[python]": {
+  //   "editor.defaultFormatter": "ms-python.black-formatter",
+  //   "editor.formatOnSave": true
+  // },
+  //terminal
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
+  "workbench.iconTheme": "vscode-icons",
+  // terminal customization
+  "workbench.colorCustomizations": {
+    "terminal.background": "#1D2021",
+    "terminal.foreground": "#A89984",
+    "terminalCursor.background": "#A89984",
+    "terminalCursor.foreground": "#A89984",
+    "terminal.ansiBlack": "#1D2021",
+    "terminal.ansiBlue": "#0D6678",
+    "terminal.ansiBrightBlack": "#665C54",
+    "terminal.ansiBrightBlue": "#0D6678",
+    "terminal.ansiBrightCyan": "#8BA59B",
+    "terminal.ansiBrightGreen": "#95C085",
+    "terminal.ansiBrightMagenta": "#8F4673",
+    "terminal.ansiBrightRed": "#FB543F",
+    "terminal.ansiBrightWhite": "#FDF4C1",
+    "terminal.ansiBrightYellow": "#FAC03B",
+    "terminal.ansiCyan": "#8BA59B",
+    "terminal.ansiGreen": "#95C085",
+    "terminal.ansiMagenta": "#8F4673",
+    "terminal.ansiRed": "#FB543F",
+    "terminal.ansiWhite": "#A89984",
+    "terminal.ansiYellow": "#FAC03B"
+  },
+
+  "workbench.colorTheme": "One Monokai",
+  "editor.minimap.showSlider": "always",
+  "terminal.integrated.defaultProfile.windows": "Command Prompt"
+}
