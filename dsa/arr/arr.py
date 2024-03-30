@@ -1,5 +1,34 @@
 unsortedArr = [4, 2, 2, 6, 3, 3, 1, 6, 5, 2, 3]
 
+def merge(arr1, arr2):
+    merged = []
+    i, j = 0, 0
+
+    while i < len(arr1) and j < len(arr2):
+        if arr1[i] < arr2[j]:
+            merged.append(arr1[i])
+            i+=1
+        else:
+            merged.append(arr2[j])
+            j+=1
+
+    arr1_tail = arr1[i:]
+    arr2_tail = arr2[j:]
+
+    return merged + arr1_tail + arr2_tail
+
+def merge_sort(arr):
+    if len(arr) <= 1 : return arr
+
+    mid = len(arr) // 2
+    left, right= arr[:mid],  arr[mid:]
+
+    left_sorted, right_sorted = merge_sort(left), merge_sort(right)
+    sorted_arr = merge(left_sorted, right_sorted)
+
+    return sorted_arr
+
+
 def partition(arr, low, high):
     pivot = arr[high]
     i = low - 1
