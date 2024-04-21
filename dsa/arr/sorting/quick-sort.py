@@ -1,5 +1,5 @@
 import random
-unsorted_list = [1, 5, 6, 2, 0, 11, 3]
+unsorted_list = [1, 2, 0, 3, 6, 11, 5]
 big_unsorted_list = [random.randint(1,100000) for _ in range(100000)]
 
 def partition(arr, low, high):
