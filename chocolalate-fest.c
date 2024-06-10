@@ -1,3 +1,5 @@
+// https://phitron.io/ph232/video/ph232-5-2-chocolate-problem-my-favorite-
+
 #include <stdio.h>
 
 int main() {
