@@ -4,19 +4,17 @@
 
 int main() {
     
-    int n,w,t;
+    int choc,pack;
     
-    n = 100;
-    w = n;
+    choc = 100;
+    pack = choc;
     
-    while(w>=4){
-        int result;
-        result = (w/4);
-        t += result;
-        w = result + (w%4);
+    while(pack>=4) {
+        choc += (pack/4);
+        pack = (pack/4) + (pack%4);
     }
     
-    printf("total extra chocolates =  %d",t);
+    printf("total amount of chocolates =  %d",choc);
     
     return 0;
 }
