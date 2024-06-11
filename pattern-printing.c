@@ -46,6 +46,21 @@ int main()
         
         printf("\n");
     }
+
+    // Hollow Square Pattern
+    printf("Hollow Square Pattern \n");
+    
+    for(i=0;i<rows;i++){
+        for(j=0;j<rows;j++){
+            if(i > 0 && i != rows - 1 && j > 0 && j != rows - 1){
+                printf("  ");
+            } else {
+                printf("* ");
+            }
+        }
+        
+        printf("\n");
+    }
   
     
     return 0; 
