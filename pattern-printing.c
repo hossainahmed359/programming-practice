@@ -61,6 +61,25 @@ int main()
         
         printf("\n");
     }
+
+    //  Hollow Full Pyramid Pattern
+    printf("Hollow Full Pyramid Pattern \n");
+    
+    for(i=0;i<rows;i++){
+        for(j=0;j < 2 * (rows-i)-1;j++){
+            printf(" ");
+        }
+        
+        for(k=0;k < 2 * i + 1;k++){
+           if(i>0 && i != rows - 1  && k >0 &&  k != (2 * i ) ){
+             printf("  "); 
+           } else {
+              printf("* ");
+           }
+        }
+        
+        printf("\n");
+    }
   
     
     return 0; 
