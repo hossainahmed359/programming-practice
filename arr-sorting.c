@@ -12,7 +12,7 @@ int main() {
     for(int i = 0; i < len - 1; i ++) {
         int swapped = false;
         
-        for(int j = i + 1; j < len; j++) {
+        for(int j = 0; j < len - i - 1; j++) {
             if(arr[i] > arr[j]) {
                 int temp = arr[i];
                 arr[i] = arr[j];
