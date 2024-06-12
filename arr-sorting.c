@@ -37,7 +37,6 @@ int main() {
 
 // ======= SELECTION SORT =======
 
-
 #include <stdio.h>
 #include <stdbool.h>
 
@@ -54,9 +53,12 @@ int main() {
             }
         }
 
-        int temp = arr[i];
-        arr[i] = arr[min_index];
-        arr[min_index] = temp;
+        if(min_index != i) {
+            int temp = arr[i];
+            arr[i] = arr[min_index];
+            arr[min_index] = temp;
+        }
+     
     }
 
     for(int i = 0; i < len; i++) {
@@ -65,6 +67,21 @@ int main() {
 
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
