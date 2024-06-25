@@ -1,5 +1,4 @@
 {
-  // editor
   "editor.fontSize": 14,
   "editor.tabSize": 4,
   "editor.fontFamily": "Fira Code, Operator Mono",
@@ -16,25 +15,14 @@
       }
     ]
   },
-
-  //explorer
   "explorer.openEditors.visible": 1,
-
-  //editor
-
   "editor.renderControlCharacters": true,
   "editor.insertSpaces": true,
   "editor.renderWhitespace": "all",
-  // "editor.rulers": [79],
   "editor.formatOnType": true,
-
   "editor.mouseWheelZoom": true,
   "editor.glyphMargin": true,
-
-  //workbench
   "workbench.editor.enablePreview": false,
-
-  //files
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
@@ -47,42 +35,25 @@
   },
   "files.trimTrailingWhitespace": true,
   "files.eol": "\n",
-
-  //git
   "git.autorefresh": false,
   "git.autofetch": false,
-
-  //python
-  //"python.pythonPath": "${env.VIRTUAL_ENV}/bin/python",
   "python.linting.flake8Enabled": true,
   "python.linting.pylintEnabled": false,
-
-  //privacy
   "update.channel": "default",
   "telemetry.enableTelemetry": false,
-
-  // cursor
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "expand",
-  // config related to code formatting
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
     "source.fixAll.tslint": "explicit",
     "source.organizeImports": "explicit"
   },
   "eslint.alwaysShowStatus": true,
-  // "[python]": {
-  //   "editor.defaultFormatter": "ms-python.black-formatter",
-  //   "editor.formatOnSave": true
-  // },
-  //terminal
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.fontWeight": "normal",
   "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
   "workbench.iconTheme": "vscode-icons",
-  // terminal customization
   "workbench.colorCustomizations": {
     "terminal.background": "#1D2021",
     "terminal.foreground": "#A89984",
@@ -105,8 +76,65 @@
     "terminal.ansiWhite": "#A89984",
     "terminal.ansiYellow": "#FAC03B"
   },
-
   "workbench.colorTheme": "One Monokai",
   "editor.minimap.showSlider": "always",
-  "terminal.integrated.defaultProfile.windows": "Command Prompt"
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "C_Cpp_Runner.cCompilerPath": "gcc",
+  "C_Cpp_Runner.cppCompilerPath": "g++",
+  "C_Cpp_Runner.debuggerPath": "gdb",
+  "C_Cpp_Runner.cStandard": "",
+  "C_Cpp_Runner.cppStandard": "",
+  "C_Cpp_Runner.msvcBatchPath": "C:/Program Files/Microsoft Visual Studio/VR_NR/Community/VC/Auxiliary/Build/vcvarsall.bat",
+  "C_Cpp_Runner.useMsvc": false,
+  "C_Cpp_Runner.warnings": [
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Wshadow",
+    "-Wformat=2",
+    "-Wcast-align",
+    "-Wconversion",
+    "-Wsign-conversion",
+    "-Wnull-dereference"
+  ],
+  "C_Cpp_Runner.msvcWarnings": [
+    "/W4",
+    "/permissive-",
+    "/w14242",
+    "/w14287",
+    "/w14296",
+    "/w14311",
+    "/w14826",
+    "/w44062",
+    "/w44242",
+    "/w14905",
+    "/w14906",
+    "/w14263",
+    "/w44265",
+    "/w14928"
+  ],
+  "C_Cpp_Runner.enableWarnings": true,
+  "C_Cpp_Runner.warningsAsError": false,
+  "C_Cpp_Runner.compilerArgs": [],
+  "C_Cpp_Runner.linkerArgs": [],
+  "C_Cpp_Runner.includePaths": [],
+  "C_Cpp_Runner.includeSearch": [
+    "*",
+    "**/*"
+  ],
+  "C_Cpp_Runner.excludeSearch": [
+    "**/build",
+    "**/build/**",
+    "**/.*",
+    "**/.*/**",
+    "**/.vscode",
+    "**/.vscode/**"
+  ],
+  "C_Cpp_Runner.useAddressSanitizer": false,
+  "C_Cpp_Runner.useUndefinedSanitizer": false,
+  "C_Cpp_Runner.useLeakSanitizer": false,
+  "C_Cpp_Runner.showCompilationTime": false,
+  "C_Cpp_Runner.useLinkTimeOptimization": false,
+  "C_Cpp_Runner.msvcSecureNoWarnings": false,
+  "C_Cpp.errorSquiggles": "disabled"
 }
