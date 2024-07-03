@@ -8,11 +8,18 @@ using namespace std;
 
 vector<int> merge_sort (vector<int> arr)
 {
+    cout<< "[ ";
+    for(int i = 0; i < arr.size() ;i++){
+        cout << arr[i] << " ";
+    }
+    cout<< "]";
+
+    cout << "\n";
+
     if(arr.size() <= 1)
         return arr;
 
     // DIVIDE
-
     int mid  = arr.size() / 2;
 
     vector<int>left_half;
